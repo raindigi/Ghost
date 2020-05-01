@@ -1,0 +1,62 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@tryghost/members-theme-bindings > lodash':
+        patched: '2020-05-01T05:44:14.520Z'
+    - bookshelf-relations > lodash:
+        patched: '2020-05-01T05:44:14.520Z'
+    - gscan > express-hbs > lodash:
+        patched: '2020-05-01T05:44:14.520Z'
+    - lodash:
+        patched: '2020-05-01T05:44:14.520Z'
+    - ghost-ignition > lodash:
+        patched: '2020-05-01T05:44:14.520Z'
+    - node-jose > lodash:
+        patched: '2020-05-01T05:44:14.520Z'
+    - amperize > lodash:
+        patched: '2020-05-01T05:44:14.520Z'
+    - bookshelf > lodash:
+        patched: '2020-05-01T05:44:14.520Z'
+    - express-hbs > lodash:
+        patched: '2020-05-01T05:44:14.520Z'
+    - gscan > lodash:
+        patched: '2020-05-01T05:44:14.520Z'
+    - html-to-text > lodash:
+        patched: '2020-05-01T05:44:14.520Z'
+    - knex > lodash:
+        patched: '2020-05-01T05:44:14.520Z'
+    - knex-migrator > lodash:
+        patched: '2020-05-01T05:44:14.520Z'
+    - '@tryghost/members-theme-bindings > @tryghost/members-browser-auth > lodash':
+        patched: '2020-05-01T05:44:14.520Z'
+    - '@tryghost/social-urls > ghost-ignition > lodash':
+        patched: '2020-05-01T05:44:14.520Z'
+    - bookshelf-relations > ghost-ignition > lodash:
+        patched: '2020-05-01T05:44:14.520Z'
+    - gscan > ghost-ignition > lodash:
+        patched: '2020-05-01T05:44:14.520Z'
+    - knex-migrator > ghost-ignition > lodash:
+        patched: '2020-05-01T05:44:14.520Z'
+    - '@tryghost/members-api > node-jose > lodash':
+        patched: '2020-05-01T05:44:14.520Z'
+    - archiver > async > lodash:
+        patched: '2020-05-01T05:44:14.520Z'
+    - brute-knex > knex > lodash:
+        patched: '2020-05-01T05:44:14.520Z'
+    - knex-migrator > knex > lodash:
+        patched: '2020-05-01T05:44:14.520Z'
+    - '@tryghost/members-theme-bindings > @tryghost/members-browser-auth > ghost-ignition > lodash':
+        patched: '2020-05-01T05:44:14.520Z'
+    - '@tryghost/members-theme-bindings > @tryghost/members-browser-auth > @tryghost/members-gateway-api > lodash':
+        patched: '2020-05-01T05:44:14.520Z'
+    - amperize > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T05:44:14.520Z'
+    - '@tryghost/members-theme-bindings > @tryghost/members-browser-auth > @tryghost/members-gateway-api > ghost-ignition > lodash':
+        patched: '2020-05-01T05:44:14.520Z'
+    - '@tryghost/members-theme-bindings > @tryghost/members-browser-auth > @tryghost/members-gateway-api > @tryghost/members-gateway-protocol > lodash':
+        patched: '2020-05-01T05:44:14.520Z'
+    - '@tryghost/members-theme-bindings > @tryghost/members-browser-auth > @tryghost/members-gateway-api > @tryghost/members-gateway-protocol > ghost-ignition > lodash':
+        patched: '2020-05-01T05:44:14.520Z'
